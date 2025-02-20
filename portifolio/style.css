@@ -49,3 +49,47 @@
     border-bottom: 2px solid #b74b4b;
     transition: all 100ms ease-in-out;
 }
+
+.black-bg {
+    background-color: black;
+    color: white;
+}
+
+.medio-width {
+    z-index: -1;
+    height: 100vh;
+    width: 80%;
+     display: flex;
+     flex-flow:  row wrap;
+     align-items: center;
+     justify-content: space-around;
+     margin: auto;
+     padding-top: 80px;
+
+}
+
+.div-minhafoto {
+    position: relative;
+    height: 80%;
+    width: 45%;
+    background-color: aqua;
+}
+
+.content-sobre {
+    position: relative;
+    height: 80%;
+    width: 45%;
+    background-color: green;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.div-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
