@@ -69,10 +69,23 @@
 }
 
 .div-minhafoto {
+
+    border-radius: 50%;
+    overflow: hidden;
     position: relative;
-    height: 80%;
-    width: 45%;
-    background-color: aqua;
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #b74b4b;
+}
+
+.div-minhafoto img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
 }
 
 .content-sobre {
@@ -92,4 +105,36 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+
+.content-sobre h1 {
+    font-size: 50px;
+    width: 70%;
+}
+
+.content-sobre h2 {
+    font-size: 25px;
+    width: 60%;
+}
+
+.content-sobre p {
+    font-size: 16px;
+    width: 80%;
+}
+
+.content-sobre #btn-contratar {
+    font-size: 16px;
+    background-color: black;
+    border: 3px solid #b74b4b;
+    border-radius: 15px;
+    padding: 4px 12px;
+    color: #b74b4b;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.content-sobre #btn-contratar:hover {
+    background-color: #b74b4b;
+    color: black;
+    transition: all 400ms ease-in-out;
 }
