@@ -164,8 +164,8 @@
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    width: 400px;
-    height: 300px;
+    width: 30%;
+    height: 50%;
     background-color: blue;
     gap: 20px;
 }
@@ -193,8 +193,8 @@
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    width: 400px;
-    height: 400px;
+    width: 30%;
+    height: 50%;
     background-color: blue;
     gap: 20px;
 }
