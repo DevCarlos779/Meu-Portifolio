@@ -67,6 +67,10 @@
 
 }
 
+.pequeno-height {
+    height: 50vh;
+}
+
 .medio-height {
     height: 100vh;
 }
