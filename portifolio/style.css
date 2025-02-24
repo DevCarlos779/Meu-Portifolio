@@ -5,8 +5,12 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    background-color: black;
+}
+
 .box-hearder {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -22,6 +26,7 @@
 
 .box-hearder h2 {
     color: #b74b4b;
+    font-size: 30px;
 }
 
 .nav-bar {
@@ -34,7 +39,11 @@
     justify-content: start;
     gap: 50px;
     list-style: none;
+    text-decoration: none;
+}
 
+.conteudo-nav a {
+    text-decoration: none;
 }
 
 .item-nav {
@@ -80,12 +89,11 @@
 }
 
 .div-minhafoto {
-
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    height: 60%;
-    width: 30%;
+    height: 450px;
+    width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,18 +111,10 @@
     position: relative;
     height: 80%;
     width: 45%;
-    background-color: green;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: start;
-    gap: 30px;
-}
-
-.div-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 30px;
 }
 
@@ -133,14 +133,41 @@
     width: 80%;
 }
 
+.div-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.div-icons a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #b74b4b;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 30px;
+    color: #b74b4b;
+}
+
+.div-icons a:hover{
+    border: none;
+    background-color: #b74b4b;
+    color: black;
+    transition: all 400ms ease-in-out;
+}
+
 .content-sobre #btn-contratar {
     font-size: 16px;
     background-color: black;
     border: 3px solid #b74b4b;
-    border-radius: 15px;
-    padding: 4px 12px;
+    border-radius: 25px;
+    padding: 8px 18px;
     color: #b74b4b;
-    font-weight: bolder;
     cursor: pointer;
 }
 
@@ -150,6 +177,11 @@
     transition: all 400ms ease-in-out;
 }
 
+
+h2 {
+    font-size: 30px;
+    color: #b74b4b;
+}
 
 .skills-content {
     position: relative;
@@ -170,8 +202,17 @@
     flex-flow: column wrap;
     width: 30%;
     height: 50%;
-    background-color: blue;
+    border: 4px solid #b74b4b;
+    border-radius: 10px;
     gap: 20px;
+}
+
+.icon-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #b74b4b;
 }
 
 .item-skill p{

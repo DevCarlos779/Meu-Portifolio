@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,10 +13,10 @@
             <h2>Carlos</h2>
             <nav class="nav-bar">
                 <ul class="conteudo-nav">
-                    <li class="item-nav">Home</li>
-                    <li class="item-nav">Skills</li>
-                    <li class="item-nav">Projects</li>
-                    <li class="item-nav">Contact</li>
+                    <a href="#home"><li class="item-nav">Home</li></a>
+                    <a href="#skills"><li class="item-nav">Skills</li></a>
+                    <a href="#projects"><li class="item-nav">Projects</li></a>
+                    <a href=""><li class="item-nav">Contact</li></a>
                 </ul>
             </nav>
         </header>
@@ -23,55 +24,55 @@
             <div class="div-minhafoto">
                 <img src="imgs/Foto-Social.jpg" alt="">
             </div>
-            <section class="content-sobre">
-                <h1>Olá, Eu sou o Carlos</h1>
+            <section class="content-sobre" id="home">
+                <h1>Olá, Eu sou o <strong style="color: #b74b4b;">Carlos</strong></h1>
 
-                <h2>Eu sou um Desenvolvedor Web</h2>
+                <h2>Eu sou um <strong style="color: #b74b4b;">Desenvolvedor Web</strong></h2>
                 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit id dolorum eos earum necessitatibus, tempora quas aliquam eaque, a ab placeat nam voluptatem veritatis error asperiores recusandae, beatae incidunt omnis.</p>
 
                 <div class="div-icons">
-                    <p>a</p>
-                    <p>a</p>
-                    <p>a</p>
-                    <p>a</p>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
                 </div>
 
                 <button id="btn-contratar">Me Contrate</button>
             </section>
         </section>
 
-        <section class="black-bg medio-width medio-height">
+        <section class="black-bg medio-width medio-height" id="skills">
             
             <h2 class="title-content">My Skills</h2>
 
             <section class="skills-content">
                 <div class="item-skill">
-                    <img src="imgs/html-5.png" alt="">
+                    <p class="icon-skill"><i class="fa-brands fa-html5"></i></p>
                     <h3>HTML</h3>
                     <p>especialfsfsdfds sdfnsdjf sdusdhf sdi fia fdf sduf sdf sduf hsduf sduf hsdf sduif dsuif suid fhsudi fhsduf hsduf hsdufs</p>
                 </div>
 
                 <div class="item-skill">
-                    <img src="imgs/css-3.png" alt="">
+                    <p class="icon-skill"><i class="fa-brands fa-css3-alt"></i></p>
                     <h3>CSS</h3>
                     <p>especialfsfsdfds sdfnsdjf sdusdhf sdi fia fdf sduf sdf sduf hsduf sduf hsdf sduif dsuif suid fhsudi fhsduf hsduf hsdufs</p>
                 </div>
 
                 <div class="item-skill">
-                    <img src="imgs/js.png" alt="">
+                    <p class="icon-skill"><i class="fa-brands fa-js"></i></p>
                     <h3>JavaScript</h3>
                     <p>especialfsfsdfds sdfnsdjf sdusdhf sdi fia fdf sduf sdf sduf hsduf sduf hsdf sduif dsuif suid fhsudi fhsduf hsduf hsdufs</p>
                 </div>
 
                 <div class="item-skill">
-                    <img src="imgs/github.png" alt="">
-                    <h3>Git Hub</h3>
+                    <p class="icon-skill"><i class="fa-brands fa-git"></i></p>
+                    <h3>Git</h3>
                     <p>especialfsfsdfds sdfnsdjf sdusdhf sdi fia fdf sduf sdf sduf hsduf sduf hsdf sduif dsuif suid fhsudi fhsduf hsduf hsdufs</p>
                 </div>
 
                 <div class="item-skill">
-                    <img src="imgs/servidor-sql.png" alt="">
+                    <p class="icon-skill"><i class="fa-solid fa-database"></i></p>
                     <h3>SQL</h3>
                     <p>especialfsfsdfds sdfnsdjf sdusdhf sdi fia fdf sduf sdf sduf hsduf sduf hsdf sduif dsuif suid fhsudi fhsduf hsduf hsdufs</p>
                 </div>
@@ -84,7 +85,7 @@
             </section>          
         </section>
 
-        <section class="black-bg medio-width grande-height">
+        <section class="black-bg medio-width grande-height" id="projects">
             <h2 class="title-content">My Projects</h2>
 
             <section class="project-content">
