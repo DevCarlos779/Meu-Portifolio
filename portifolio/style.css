@@ -217,7 +217,7 @@ h2 {
     width: 28%;
     height: 43%;
     border: 2px solid rgba(255, 74, 87, 155);
-    transition: all 500ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
 .icon-skill {
@@ -260,7 +260,7 @@ h2 {
 .item-project:hover {
     width: 32%;
     height: 52%;
-    transition: all 500ms ease-in-out;
+    transition: all 400ms ease-in-out;
     border: 2px solid rgba(255, 74, 87, 155);
 }
 
