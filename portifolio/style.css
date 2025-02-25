@@ -206,10 +206,18 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    width: 30%;
-    height: 50%;
+    width: 25%;
+    height: 40%;
     background-color: rgba(43, 45, 65, 51);
     gap: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.item-skill:hover {
+    width: 28%;
+    height: 43%;
+    border: 2px solid rgba(255, 74, 87, 155);
+    transition: all 500ms ease-in-out;
 }
 
 .icon-skill {
@@ -221,8 +229,7 @@ h2 {
 }
 
 .item-skill p{
-    position: relative;
-    width: 80%;
+    font-weight: bolder;
 }
 
 
@@ -247,6 +254,14 @@ h2 {
     height: 50%;
     background-color: rgba(43, 45, 65, 51);
     gap: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.item-project:hover {
+    width: 32%;
+    height: 52%;
+    transition: all 500ms ease-in-out;
+    border: 2px solid rgba(255, 74, 87, 155);
 }
 
 .item-project p{
