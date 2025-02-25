@@ -70,7 +70,7 @@ body {
     z-index: -1;
     width: 80%;
     display: flex;
-    flex-flow:  row wrap;
+    flex-flow:  column wrap;
     align-items: center;
     justify-content: space-around;
     margin: auto;
@@ -139,6 +139,7 @@ body {
 .content-sobre p {
     font-size: 16px;
     width: 100%;
+    color: white;
     font-family: "Poppins", serif;
     font-weight: 400;
 }
@@ -219,6 +220,7 @@ h2 {
     background-color: rgba(43, 45, 65, 51);
     gap: 20px;
     transition: all 500ms ease-in-out;
+    color: white;
 }
 
 .item-skill:hover {
@@ -237,13 +239,11 @@ h2 {
 }
 
 .item-skill h3{
-    font-weight: bolder;
     font-family: "Poppins", serif;
     font-weight: 500;
 }
 
 .item-skill p{
-    font-weight: bolder;
     font-family: "Poppins", serif;
     font-weight: 400;
 }
@@ -271,6 +271,7 @@ h2 {
     background-color: rgba(43, 45, 65, 51);
     gap: 20px;
     transition: all 500ms ease-in-out;
+    color: white;
 }
 
 .item-project:hover {
@@ -292,4 +293,53 @@ h2 {
     width: 80%;
     font-family: "Poppins", serif;
     font-weight: 400;
+}
+
+
+.contact-content {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.item-contact {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    height: 25%;
+}
+
+.item-contact i{
+    font-size: 25px;
+    color: rgba(255, 74, 87, 155);
+}
+
+.infos-contact {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+
+.infos-contact h5 {
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+}
+
+.infos-contact p, .infos-contact a {
+    font-size: 16px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    text-decoration: none;
 }
