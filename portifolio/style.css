@@ -21,7 +21,7 @@ body {
     z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 120px;
     background-color: rgba(33, 35, 54, 41);
     height: 80px;
@@ -33,14 +33,10 @@ body {
     font-size: 30px;
 }
 
-.nav-bar {
-    width: 50%;
-}
-
 .conteudo-nav {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap: 50px;
     list-style: none;
     text-decoration: none;
@@ -55,6 +51,8 @@ body {
     color: white;
     cursor: pointer;
     font-weight: bolder;
+    font-family: "Poppins", serif;
+    font-weight: 400;
 }
 
 .item-nav:hover {
@@ -124,19 +122,25 @@ body {
 
 .content-sobre h1 {
     font-size: 50px;
-    width: 70%;
+    width: 80%;
     color: white;
+    font-family: "Poppins", serif;
+    font-weight: 800;
 }
 
 .content-sobre h2 {
-    font-size: 25px;
-    width: 60%;
+    font-size: 30px;
+    width: 70%;
     color: white;
+    font-family: "Poppins", serif;
+    font-weight: 600;
 }
 
 .content-sobre p {
     font-size: 16px;
-    width: 80%;
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-weight: 400;
 }
 
 .div-icons {
@@ -156,25 +160,27 @@ body {
     border: 2px solid rgba(255, 74, 87, 155);
     border-radius: 50%;
     background-color: rgba(35, 38, 58, 44);
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(255, 74, 87, 155);;
 }
 
 .div-icons a:hover{
     border: none;
     background-color: rgba(255, 74, 87, 155);
-    color: black;
+    color: rgba(35, 38, 58, 44);
     transition: all 400ms ease-in-out;
 }
 
 .content-sobre #btn-contratar {
-    font-size: 16px;
+    font-size: 20px;
     background-color: rgba(35, 38, 58, 44);
     border: 3px solid rgba(255, 74, 87, 155);
     border-radius: 25px;
     padding: 8px 18px;
     color: rgba(255, 74, 87, 155);;
     cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 400;
 }
 
 .content-sobre #btn-contratar:hover {
@@ -187,6 +193,8 @@ body {
 h2 {
     font-size: 30px;
     color: rgba(255, 74, 87, 155);
+    font-family: "Poppins", serif;
+    font-weight: 600;
 }
 
 .skills-content {
@@ -228,8 +236,16 @@ h2 {
     color: rgba(255, 74, 87, 155);
 }
 
+.item-skill h3{
+    font-weight: bolder;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+
 .item-skill p{
     font-weight: bolder;
+    font-family: "Poppins", serif;
+    font-weight: 400;
 }
 
 
@@ -264,7 +280,16 @@ h2 {
     border: 2px solid rgba(255, 74, 87, 155);
 }
 
+.item-project h3{
+    font-weight: bolder;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .item-project p{
     position: relative;
     width: 80%;
+    font-family: "Poppins", serif;
+    font-weight: 400;
 }
