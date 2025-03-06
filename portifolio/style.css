@@ -565,6 +565,7 @@ h2 {
     .contact-content {
         position: relative;
         width: 80%;
+        height: 80%;
         display: flex;
         flex-flow: row wrap;
         align-items: center;
