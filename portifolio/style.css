@@ -586,13 +586,60 @@ h2 {
     
 }
 
-@media (max-width: 980px) {
+@media (max-width: 670px) {
 
     .grid-sobremim {
         position: relative;
         z-index: -1;
         width: 80%;
         min-height: 115vh;
+
+    
+    }
+
+    .div-minhafoto {
+        height: 250px;
+        width: 250px
+    }
+
+    .content-sobre h1 {
+        font-size: 30px;
+
+    }
+
+
+    .content-sobre p {
+
+        width: 90%;
+
+    }
+
+    
+    .content-sobre #btn-contratar {
+        font-size: 20px;
+        background-color: rgba(35, 38, 58, 44);
+        border: 3px solid rgba(255, 74, 87, 155);
+        border-radius: 25px;
+        padding: 6px 15px;
+        color: rgba(255, 74, 87, 155);;
+        cursor: pointer;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+    }
+    
+    .content-sobre #btn-contratar:hover {
+        background-color: rgba(255, 74, 87, 155);
+        color: rgba(35, 38, 58, 44);
+        transition: all 400ms ease-in-out;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .grid-sobremim {
+
+        min-height: 125vh;
 
     
     }
