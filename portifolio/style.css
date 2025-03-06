@@ -498,6 +498,27 @@ h2 {
         height: 250vh;
     }
 
+    .medio-width {
+
+
+       
+        justify-content: flex-start;
+        margin: 0 auto;
+        padding-top: 100px;
+        gap: 30px;
+    
+    }
+
+    .skills-content {
+        height: 95%;
+
+    }
+
+    .project-content {
+        height: 95%;
+
+    }
+
 
     .item-skill {
 
@@ -508,6 +529,34 @@ h2 {
 
     }
 
+    .grande-height {
+        height: 350vh;
+    }
+
+    .item-project {
+
+        width: 80%;
+        height: 16%;
+
+
+    }
+
+    .item-project h3{
+        font-weight: bolder;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .item-project img{
+        position: relative;
+        width: 60%;
+        height: 40%;
+    }
+    
+    .item-project p{
+       font-size: 13px;
+    }
 
 
     .contact-content {
@@ -535,6 +584,19 @@ h2 {
     }
 
     
+}
+
+@media (max-width: 980px) {
+
+    .grid-sobremim {
+        position: relative;
+        z-index: -1;
+        width: 80%;
+        min-height: 115vh;
+
+    
+    }
+
 }
 
 
