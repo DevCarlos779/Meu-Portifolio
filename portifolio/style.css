@@ -500,6 +500,8 @@ h2 {
 
     .medio-width {
 
+
+       
         justify-content: flex-start;
         margin: 0 auto;
         padding-top: 100px;
@@ -556,16 +558,11 @@ h2 {
        font-size: 13px;
     }
 
-    .title-content {
-        height: 10%;
-    }
-
-    .pequeno-height 
 
     .contact-content {
         position: relative;
         width: 80%;
-        height: 80%;
+        height: 70%;
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -573,15 +570,15 @@ h2 {
         gap: 30px;
 
     }
+    
 
     .item-contact {
         display: flex;
         align-items: center;
-        justify-content: center;
-        flex-flow: column wrap;
-        
+        justify-content: flex-start;
+        gap: 40px;
         width: 70%;
-        height: 20%;
+        height: 35%;
         padding-bottom: 40px;
         
     }
