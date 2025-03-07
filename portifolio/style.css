@@ -414,6 +414,12 @@ h2 {
 
     }
 
+    .item-project img{
+        position: relative;
+        width: 250px;
+        height: 150px;
+    }
+
     
 }
 
@@ -436,8 +442,8 @@ h2 {
     
     .item-project img{
         position: relative;
-        width: 60%;
-        height: 40%;
+        width: 250px;
+        height: 150px;
     }
     
     .item-project p{
@@ -550,8 +556,8 @@ h2 {
     
     .item-project img{
         position: relative;
-        width: 60%;
-        height: 40%;
+        width: 300px;
+        height: 200px;
     }
     
     .item-project p{
@@ -635,6 +641,49 @@ h2 {
 
 }
 
+@media (max-width: 575px) {
+
+    .item-skill {
+
+        width: 80%;
+
+    }
+
+    .item-project img{
+        width:250px;
+        height: 150px;
+    }
+
+    .item-project {
+
+        width: 95%;
+
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .grid-sobremim {
+        width: 90%;
+    
+    }
+
+    .content-sobre h1 {
+        font-size: 30px;
+
+    }
+
+
+    .content-sobre p {
+
+        width: 90%;
+        font-size: 14px;
+
+    }
+
+}
+
 @media (max-width: 420px) {
 
     .grid-sobremim {
@@ -643,6 +692,49 @@ h2 {
 
     
     }
+
+    .item-project img{
+        position: relative;
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .item-skill {
+
+        width: 90%;
+
+    }
+
+    
+    .item-skill p{
+        font-size: 14px;
+    }
+
+    .icon-skill {
+
+        font-size: 50px !important;
+
+    }
+
+}
+
+@media (max-width: 410px) {
+
+
+    .content-sobre h1 {
+        font-size: 25px;
+
+    }
+
+    .content-sobre h2 {
+        font-size: 25px;
+
+    }
+
 
 }
 
