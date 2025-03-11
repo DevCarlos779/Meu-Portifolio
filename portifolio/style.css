@@ -516,6 +516,14 @@ h2 {
     
     }
 
+    .box-hearder {
+
+        justify-content: space-between;
+        padding: 0 120px;
+        
+    
+    }
+
     .skills-content {
         height: 95%;
 
@@ -601,6 +609,37 @@ h2 {
 
     
 }
+
+@media (max-width: 900px) {
+
+    .box-hearder {
+
+        justify-content: space-between;
+        padding: 0 80px;
+        
+    
+    }
+
+}
+
+@media (max-width: 740px) {
+
+    .box-hearder {
+
+        padding: 0 60px; 
+    
+    }
+
+    .conteudo-nav {
+
+        gap: 30px;
+
+    }
+    
+
+}
+
+
 
 @media (max-width: 670px) {
 
