@@ -190,7 +190,7 @@ body {
     color: rgba(255, 74, 87, 155);
 }
 
-.div-icons a:hover{
+.div-icons a:hover {
     border: none;
     background-color: rgba(255, 74, 87, 155);
     color: rgba(35, 38, 58, 44);
@@ -247,6 +247,7 @@ h2 {
     gap: 20px;
     transition: all 500ms ease-in-out;
     color: white;
+    cursor:pointer;
 }
 
 .item-skill:hover {
@@ -507,8 +508,6 @@ h2 {
 
     .medio-width {
 
-
-       
         justify-content: flex-start;
         margin: 0 auto;
         padding-top: 100px;
