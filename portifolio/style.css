@@ -67,7 +67,6 @@ body {
 
 .medio-width {
     position: relative;
-    z-index: -1;
     width: 80%;
     display: flex;
     flex-flow:  column wrap;
@@ -93,7 +92,6 @@ body {
 
 .grid-sobremim {
     position: relative;
-    z-index: -1;
     width: 80%;
     min-height: 100vh;
     display: grid;
