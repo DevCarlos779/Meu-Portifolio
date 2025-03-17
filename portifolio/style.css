@@ -55,7 +55,7 @@ body {
 }
 
 .item-nav:hover {
-    color: rgba(255, 74, 87, 155);;
+    color: rgba(255, 74, 87, 155);
     border-bottom: 2px solid rgba(255, 74, 87, 155);
     transition: all 100ms ease-in-out;
 }
