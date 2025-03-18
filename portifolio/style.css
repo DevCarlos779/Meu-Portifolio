@@ -32,6 +32,24 @@ body {
     font-size: 30px;
 }
 
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+}
+
 .conteudo-nav {
     display: flex;
     align-items: center;
@@ -639,6 +657,8 @@ h2 {
 
 
 @media (max-width: 670px) {
+
+    
 
     .grid-sobremim {
         position: relative;
