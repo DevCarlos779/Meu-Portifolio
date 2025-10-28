@@ -757,6 +757,7 @@ h2 {
 
     .grid-sobremim {
         width: 90%;
+        min-height: 150vh;
     
     }
 
@@ -810,7 +811,7 @@ h2 {
 
     .grid-sobremim {
 
-        min-height: 130vh;
+        min-height: 150vh;
     
     }
 
