@@ -743,6 +743,14 @@ h2 {
 
     }
 
+    .item-contact h5 {
+        font-size: 1rem;
+    }
+
+    .item-contact a {
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 470px) {
@@ -802,8 +810,7 @@ h2 {
 
     .grid-sobremim {
 
-        min-height: 125vh;
-        margin-bottom: 80px;
+        min-height: 130vh;
     
     }
 
