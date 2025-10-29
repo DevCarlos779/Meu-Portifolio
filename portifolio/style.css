@@ -475,13 +475,15 @@ h2 {
 
         width: 90%;
         margin: auto;
+        justify-content: center;
+        gap: 3rem;
     
     }
 
     .grid-sobremim {
         
         grid-template-columns: 1fr;
-        height: 100vh;
+        height: 120vh;
         margin-top: 80px;
         width: 90%;
     
