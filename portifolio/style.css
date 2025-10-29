@@ -679,7 +679,6 @@ h2 {
 
     .grid-sobremim {
         position: relative;
-        z-index: -1;
         width: 80%;
         min-height: 115vh;
 
