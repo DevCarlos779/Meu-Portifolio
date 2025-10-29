@@ -734,6 +734,10 @@ h2 {
 
 @media (max-width: 575px) {
 
+    .medio-height {
+        min-height: 275vh;
+    }
+
     .item-skill {
 
         width: 80%;
