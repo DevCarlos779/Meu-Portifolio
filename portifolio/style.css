@@ -311,6 +311,7 @@ h2 {
     gap: 20px;
     transition: all 0.2s ease-in-out;
     color: white;
+    cursor: pointer;
 }
 
 .item-project:hover {
@@ -327,7 +328,7 @@ h2 {
 .item-project img{
     position: relative;
     width: 80%;
-    height: 40%;
+    height: 35%;
 }
 
 .item-project i{
@@ -434,8 +435,8 @@ h2 {
 
     .item-project img{
         position: relative;
-        width: 250px;
-        height: 150px;
+        width: 300px;
+        height: 200px;
     }
 
     
@@ -609,7 +610,7 @@ h2 {
     
     .item-project img{
         position: relative;
-        width: 300px;
+        width: 370px;
         height: 200px;
     }
 
@@ -745,8 +746,8 @@ h2 {
     }
 
     .item-project img{
-        width:250px;
-        height: 150px;
+        width: 300px;
+        height: 180px;
     }
 
     .item-project {
@@ -877,7 +878,13 @@ h2 {
 
     }
 
+    .item-project p{
+        font-size: 14px;
+    }
+
 }
+
+
 
 
 
